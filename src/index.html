@@ -3,11 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Birthday Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles//main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/ebac_logo.svg" alt="ebac_logo">
+            <p class="hero__text">
+                Countdown to my 20th Birthday <span id="counter"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Where</b>
+                        Chase Center Arena - San Francisco
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Ticket</b>
+                        $200,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>When</b>
+                        06/28/24, 8pm
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Save a spot
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--bday-1">
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Enjoy this date w/ me</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolor alias et natus provident
+                    recusandae perferendis incidunt nobis velit! Deleniti molestiae quaerat consequatur velit id cum
+                    odit totam nostrum sapiente.
+                </p>
+            </div>
+            <img class="event__image" src="./images/bday.jpg" alt="bday-1">
+        </div>
+    </section>
+
+    <section class="event event--bday-2  event--left-img">
+        <div class="container" data-aos="flip-left">
+            <div class="event__details">
+                <h2 class="event__details__title">20 years of fun</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolor alias et natus provident
+                    recusandae perferendis incidunt nobis velit! Deleniti molestiae quaerat consequatur velit id cum
+                    odit totam nostrum sapiente.
+                </p>
+            </div>
+            <img class="event__image" src="./images/party-1.jpg" alt="bday-1">
+        </div>
+    </section>
+
+    <section class="event event--bday-3">
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">There is no time like today</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolor alias et natus provident
+                    recusandae perferendis incidunt nobis velit! Deleniti molestiae quaerat consequatur velit id cum
+                    odit totam nostrum sapiente.
+                </p>
+            </div>
+            <img class="event__image" src="./images/party-3.jpg" alt="bday-3">
+        </div>
+    </section>
+
+    <section class="event event--bday-4 event--left-img">
+        <div class="container" data-aos="flip-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Waste no time</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolor alias et natus provident
+                    recusandae perferendis incidunt nobis velit! Deleniti molestiae quaerat consequatur velit id cum
+                    odit totam nostrum sapiente.
+                </p>
+            </div>
+            <img class="event__image" src="./images/party-4.jpg" alt="bday-4">
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
